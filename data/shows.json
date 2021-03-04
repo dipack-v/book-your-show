@@ -1,0 +1,49 @@
+{
+	"shows": [
+		{
+			"id": 1,
+			"name": "Pearl Harbor",
+			"showTime": "Mon Mar 1 2021"
+		},
+		{
+			"id": 2,
+			"name": "Extraction",
+			"showTime": "Tue Mar 2 2021"
+		},
+		{
+			"id": 3,
+			"name": "Saving Private Ryan",
+			"showTime": "Wed Mar 3 2021"
+		},
+		{
+			"id": 4,
+			"name": "Extraction",
+			"showTime": "Thu Mar 4 2021"
+		},
+		{
+			"id": 5,
+			"name": "The Thin Red Line",
+			"showTime": "Fri Mar 5 2021"
+		},
+		{
+			"id": 6,
+			"name": "The Hurt Locker",
+			"showTime": "Sat Mar 6 2021"
+		},
+		{
+			"id": 7,
+			"name": "Dunkirk",
+			"showTime": "Sun Mar 7 2021"
+		},
+		{
+			"id": 8,
+			"name": "Inglourious Basterds",
+			"showTime": "Mon Mar 8 2021"
+		},
+		{
+			"id": 9,
+			"name": "War Horse",
+			"showTime": "Tue Mar 9 2021"
+		}
+	]
+}
