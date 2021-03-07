@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
-import axios from 'axios';
-import Show from './show/Show';
+import Shows from './show/Shows';
 
 
 class App extends React.Component {
@@ -11,21 +10,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
-        {this.state.shows.map(show => {
-          return <Show id={show.id} name={show.name} showTime={show.showTime} key={show.id} />
-        })}
-
+        <Shows />
       </div>
     );
-  }
-
-  componentDidMount() {
-    axios.get('/shows')
-      .then(res => {
-        const showList = res.data.shows;
-        this.setState({ shows:showList });
-      });
   }
 }
 
